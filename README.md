@@ -1,6 +1,10 @@
 # Evaluating-the-Effectiveness-of-SMOTE-ENC-in-Class-Imbalance-Medical-Data
 
 
+
+ Evaluating the Effectiveness of SMOTE and SMOTE-ENC in Class Imbalance Medical Data
+
+
 ## 📋 Project Overview
 
 This project investigates how Synthetic Minority Over-sampling Techniques (SMOTE) and its extended version SMOTE-ENC impact machine learning model performance on **imbalanced medical datasets**. Specifically, it focuses on classifying Chronic Obstructive Pulmonary Disease (COPD) cases using the **ExaSens** dataset, which contains both **nominal** and **continuous** features.
@@ -101,10 +105,11 @@ This project aims to:
 ```bash
 # Clone this repository
 git clone https://github.com/Nandana-vijayan/Evaluating-the-Effectiveness-of-SMOTE-and-SMOTE-ENC-in-Class-Imbalance-Medical-Data.git
-
 # Move into the project directory
 cd Evaluating-the-Effectiveness-of-SMOTE-and-SMOTE-ENC-in-Class-Imbalance-Medical-Data
 
+
+```
 
 > Requirements include: `scikit-learn`, `imbalanced-learn`, `pandas`, `matplotlib`, `seaborn`.
 
@@ -113,19 +118,18 @@ cd Evaluating-the-Effectiveness-of-SMOTE-and-SMOTE-ENC-in-Class-Imbalance-Medica
 ## 🚀 How to Run
 
 1. Download the **ExaSens** dataset from [IEEE DataPort](https://ieee-dataport.org/open-access/exasens-novel-dataset-classification-saliva-samples-copd-patients).
-2. Preprocess the data by running the scripts provided under 'Saliva_samples of COPD patients.ipynb'
-3. Use the provided python files to:
+2. Preprocess the data by running the scripts provided under 'Saliva_samples of COPD patients.ipynb'.
+3. Use the provided Jupyter Notebooks to:
    - Train models with SMOTE.('2-SMOTE balanced Exasens.ipynb')
    - Train models with SMOTE-ENC.('3_SMOTENC_balanced_Exasens.ipynb')
    - Then Evaluate and compare performance.
 4. Optionally, run **manual prediction tests** using trained Decision Tree models.
 
-SMOTE - ENC(Manual test)
+SMOTE - ENC(Manual test):
 
-4- Manual Test.ipynb
+4- Manual Test.ipynb 
 
-
-SMOTE(Manual test)
+SMOTE(Manual test):
 
 5- Manual Test (SMOTE).ipynb
 
