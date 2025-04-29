@@ -107,6 +107,8 @@ This project aims to:
 git clone https://github.com/Nandana-vijayan/Evaluating-the-Effectiveness-of-SMOTE-and-SMOTE-ENC-in-Class-Imbalance-Medical-Data.git
 # Move into the project directory
 cd Evaluating-the-Effectiveness-of-SMOTE-and-SMOTE-ENC-in-Class-Imbalance-Medical-Data
+# Install dependencies
+pip install -r requirements.txt
 
 
 ```
