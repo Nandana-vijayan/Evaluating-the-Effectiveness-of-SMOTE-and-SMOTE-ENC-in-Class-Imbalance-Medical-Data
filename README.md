@@ -105,9 +105,6 @@ git clone https://github.com/Nandana-vijayan/Evaluating-the-Effectiveness-of-SMO
 # Move into the project directory
 cd Evaluating-the-Effectiveness-of-SMOTE-and-SMOTE-ENC-in-Class-Imbalance-Medical-Data
 
-# Install dependencies
-pip install -r requirements.txt
-```
 
 > Requirements include: `scikit-learn`, `imbalanced-learn`, `pandas`, `matplotlib`, `seaborn`.
 
@@ -124,8 +121,12 @@ pip install -r requirements.txt
 4. Optionally, run **manual prediction tests** using trained Decision Tree models.
 
 SMOTE - ENC(Manual test)
+
 4- Manual Test.ipynb
+
+
 SMOTE(Manual test)
+
 5- Manual Test (SMOTE).ipynb
 
 ## ✨ Future Work
