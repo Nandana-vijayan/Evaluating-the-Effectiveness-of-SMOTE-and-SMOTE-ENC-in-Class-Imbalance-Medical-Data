@@ -103,7 +103,7 @@ This project aims to:
 git clone https://github.com/Nandana-vijayan/Evaluating-the-Effectiveness-of-SMOTE-and-SMOTE-ENC-in-Class-Imbalance-Medical-Data.git
 
 # Move into the project directory
-cd your-repo-name
+cd Evaluating-the-Effectiveness-of-SMOTE-and-SMOTE-ENC-in-Class-Imbalance-Medical-Data
 
 # Install dependencies
 pip install -r requirements.txt
@@ -119,11 +119,14 @@ pip install -r requirements.txt
 2. Preprocess the data by running the scripts provided under 'Saliva_samples of COPD patients.ipynb'
 3. Use the provided python files to:
    - Train models with SMOTE.('2-SMOTE balanced Exasens.ipynb')
-   - Train models with SMOTE-ENC.
+   - Train models with SMOTE-ENC.('3_SMOTENC_balanced_Exasens.ipynb')
    - Then Evaluate and compare performance.
 4. Optionally, run **manual prediction tests** using trained Decision Tree models.
 
-
+SMOTE - ENC(Manual test)
+4- Manual Test.ipynb
+SMOTE(Manual test)
+5- Manual Test (SMOTE).ipynb
 
 ## ✨ Future Work
 
